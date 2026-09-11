@@ -21,8 +21,8 @@
     { "ticker": "KXRECSSNBER-26",             "categoryId": "things-getting-worse",          "direction":  1, "title": "US recession in 2026" },
     { "ticker": "KXCITRINI-28JUL01",          "categoryId": "things-getting-worse",          "direction":  1, "title": "Citrini scenario: AI-driven economic collapse by 2028" },
 
-    { "ticker": "OAIAGI",                     "categoryId": "ai-taking-over",                "direction":  1, "title": "OpenAI achieves AGI" },
-    { "ticker": "AITURING",                   "categoryId": "ai-taking-over",                "direction":  1, "title": "AI passes Turing test by 2029" },
+    { "ticker": "OAIAGI-29",                  "categoryId": "ai-taking-over",                "direction":  1, "title": "OpenAI achieves AGI by 2029" },
+    { "ticker": "KXLASTEXAM-27DEC31-T80",     "categoryId": "ai-taking-over",                "direction":  1, "title": "AI scores 80%+ on Humanity's Last Exam" },
     { "ticker": "KXUSTAKEOVER-30",            "categoryId": "ai-taking-over",                "direction":  1, "title": "US government takeover of AI company" },
     { "ticker": "KXOAIANTH-40-OAI",           "categoryId": "ai-taking-over",                "direction":  1, "title": "OpenAI IPOs before Anthropic" },
     { "ticker": "KXROBOTMARS-35",             "categoryId": "ai-taking-over",                "direction":  1, "title": "Robot on Mars before human" },
@@ -30,12 +30,15 @@
     { "ticker": "KXPOPCHANGESTATE10-35",      "categoryId": "time-to-leave-the-city",        "direction":  1, "title": "State loses 10%+ population by 2035" },
     { "ticker": "KXCASECESSION-30",           "categoryId": "time-to-leave-the-city",        "direction":  1, "title": "California secession ballot by 2030" },
     { "ticker": "KXEARTHQUAKECALIFORNIA-35",  "categoryId": "time-to-leave-the-city",        "direction":  1, "title": "8.0+ earthquake in California" },
+    { "ticker": "KX30YMORTW-26SEP17-T6.80",   "categoryId": "time-to-leave-the-city",        "direction":  1, "title": "30-year mortgage rate stays above 6.8%" },
 
     { "ticker": "KXERUPTSUPER-0-50JAN01",     "categoryId": "end-of-the-world",              "direction":  1, "title": "Supervolcano eruption by 2050" },
     { "ticker": "KXEARTHQUAKEJAPAN-30",       "categoryId": "end-of-the-world",              "direction":  1, "title": "8.0+ earthquake in Japan by 2030" },
     { "ticker": "KXEARTHQUAKECALIFORNIA-35",  "categoryId": "end-of-the-world",              "direction":  1, "title": "8.0+ earthquake in California" },
     { "ticker": "KXTAIWANLVL4-29JAN01",       "categoryId": "end-of-the-world",              "direction":  1, "title": "US Level 4 Taiwan warning by 2029" },
     { "ticker": "KXTAIWANLVL4-30JAN01",       "categoryId": "end-of-the-world",              "direction":  1, "title": "US Level 4 Taiwan warning by 2030" },
+    { "ticker": "KXUSAIRANAGREEMENT-27-26OCT","categoryId": "end-of-the-world",              "direction": -1, "title": "US agrees new Iran nuclear deal" },
+    { "ticker": "KXUSSAUDINUCLEAR-27-27JAN01","categoryId": "end-of-the-world",              "direction": -1, "title": "US-Saudi nuclear cooperation deal takes effect" },
 
     { "ticker": "KXWARMING-50",               "categoryId": "things-heating-up",             "direction":  1, "title": "World exceeds 2°C warming" },
     { "ticker": "KXCO2LEVEL-30-445",          "categoryId": "things-heating-up",             "direction":  1, "title": "CO₂ hits 445 ppm by 2030" },
@@ -45,13 +48,13 @@
 
     { "ticker": "KXGOVTCUTS-28-500",          "categoryId": "cooling-off",                   "direction":  1, "title": "Government spending cut $500B by 2028" },
     { "ticker": "KXGOVTCUTS-28-1000",         "categoryId": "cooling-off",                   "direction":  1, "title": "Government spending cut $1T by 2028" },
-    { "ticker": "KXBALANCE-29",               "categoryId": "cooling-off",                   "direction":  1, "title": "Balanced US budget by 2029" },
+    { "ticker": "KXRATECUT-26DEC31",          "categoryId": "cooling-off",                   "direction":  1, "title": "Fed cuts rates before 2027" },
     { "ticker": "KXFDATYPE1DIABETES-33",      "categoryId": "cooling-off",                   "direction":  1, "title": "FDA approves Type 1 diabetes cure" },
     { "ticker": "KXPOLIOELIM-30",             "categoryId": "cooling-off",                   "direction":  1, "title": "Global polio elimination by 2030" },
 
-    { "ticker": "KXMUSKTRILLION-27",          "categoryId": "human-behavior-weird",          "direction":  1, "title": "Elon Musk hits $1T net worth by 2027" },
-    { "ticker": "KXTRILLIONAIRE-30-EM",       "categoryId": "human-behavior-weird",          "direction":  1, "title": "Musk becomes first trillionaire" },
-    { "ticker": "KXTRILLIONAIRE-30-JH",       "categoryId": "human-behavior-weird",          "direction":  1, "title": "Jensen Huang becomes trillionaire" },
+    { "ticker": "KXNEXTTRILLIONAIRE-33-SA",   "categoryId": "human-behavior-weird",          "direction":  1, "title": "Sam Altman becomes world's next trillionaire" },
+    { "ticker": "KXNEXTTRILLIONAIRE-33-JH",   "categoryId": "human-behavior-weird",          "direction":  1, "title": "Jensen Huang becomes world's next trillionaire" },
+    { "ticker": "KXNEXTTRILLIONAIRE-33-MZ",   "categoryId": "human-behavior-weird",          "direction":  1, "title": "Zuckerberg becomes world's next trillionaire" },
     { "ticker": "KXELONMARS-99",              "categoryId": "human-behavior-weird",          "direction":  1, "title": "Elon Musk goes to Mars in his lifetime" },
 
     { "ticker": "KXFUSION-30-JAN01",          "categoryId": "scifi-becoming-real",           "direction":  1, "title": "Commercial nuclear fusion by 2030" },
@@ -60,8 +63,9 @@
     { "ticker": "KXCOLONIZEMARS-50",          "categoryId": "scifi-becoming-real",           "direction":  1, "title": "Human Mars colony by 2050" },
     { "ticker": "KXDATACENTER-30",            "categoryId": "scifi-becoming-real",           "direction":  1, "title": "Nuclear-powered AI data center built" },
     { "ticker": "KXMARSVRAIL-50",             "categoryId": "scifi-becoming-real",           "direction": -1, "title": "Mars colony before CA high-speed rail" },
+    { "ticker": "KXMILLENNIUM-25-29",         "categoryId": "scifi-becoming-real",           "direction":  1, "title": "Millennium Prize math problem solved by 2029" },
 
-    { "ticker": "KXG7LEADEROUT-45JAN01-EMAC", "categoryId": "chaos-index",                   "direction":  1, "title": "Macron out of power by 2045" },
+    { "ticker": "KXG7LEADEROUT-26JUL20-EMAC", "categoryId": "chaos-index",                   "direction":  1, "title": "France's president first G7 leader out" },
     { "ticker": "AMAZONFTC-29DEC31",          "categoryId": "chaos-index",                   "direction":  1, "title": "Amazon found monopoly by 2029" },
     { "ticker": "APPLEUS-29DEC31",            "categoryId": "chaos-index",                   "direction":  1, "title": "Apple found monopoly by 2029" },
 
@@ -73,6 +77,6 @@
 
     { "ticker": "KXGREENLAND-29",             "categoryId": "routine-presidential-business", "direction":  1, "title": "US acquires part of Greenland by 2029" },
     { "ticker": "KXAMEND25-29",              "categoryId": "routine-presidential-business", "direction":  1, "title": "25th Amendment invoked during Trump's term" },
-    { "ticker": "KXIMPEACH-29",              "categoryId": "routine-presidential-business", "direction":  1, "title": "Trump impeached during current term" }
+    { "ticker": "KXIMPEACH-29-JAN20",        "categoryId": "routine-presidential-business", "direction":  1, "title": "President impeached before Jan 2029" }
   ]
 }

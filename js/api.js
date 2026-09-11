@@ -159,19 +159,10 @@ export async function getMarketTrades(ticker, limit = 50) {
   }
 }
 
-/** Fetch defaults.json — 24h localStorage cache, falls back to stale on network failure */
+/** Fetch defaults.json — always tries the network first so file edits show up immediately;
+ *  falls back to the last-known localStorage cache only if the network fetch fails. */
 export async function fetchDefaults() {
   const STORE_KEY = 'wp_defaults_cache';
-  const TTL = 24 * 60 * 60 * 1000;
-
-  // Return fresh cache if within TTL
-  try {
-    const raw = localStorage.getItem(STORE_KEY);
-    if (raw) {
-      const { data, ts } = JSON.parse(raw);
-      if (Date.now() - ts < TTL) return data;
-    }
-  } catch {}
 
   // Fetch fresh
   try {
@@ -182,7 +173,7 @@ export async function fetchDefaults() {
     return data;
   } catch (err) {
     console.warn('Could not fetch defaults.json, using stale cache:', err.message);
-    // Fall back to stale cached version (ignore TTL)
+    // Network failed — fall back to whatever was last cached, regardless of age
     try {
       const raw = localStorage.getItem(STORE_KEY);
       if (raw) return JSON.parse(raw).data;
