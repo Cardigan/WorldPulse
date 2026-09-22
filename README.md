@@ -70,6 +70,8 @@ Hosted on Azure Static Web Apps. Push to `main` → GitHub Actions builds and de
 
 An Azure Functions proxy (`api/proxy`) forwards API calls on deployed environments where Kalshi blocks CORS from non-localhost origins.
 
+Configure the deployment token as the repository secret `AZURE_STATIC_WEB_APPS_API_TOKEN`.
+
 The build pipeline auto-generates `version.json` from `github.run_number` and the current git SHA, displayed in the footer.
 
 ## Configuring markets
